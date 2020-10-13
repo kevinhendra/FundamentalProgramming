@@ -1,0 +1,7 @@
+E:\Metrodata\Tugas Bootcamp Metrodata\Coding\FundamentalProgramming\FundamentalProgramming\bin\Debug\FundamentalProgramming.exe.config
+E:\Metrodata\Tugas Bootcamp Metrodata\Coding\FundamentalProgramming\FundamentalProgramming\bin\Debug\FundamentalProgramming.exe
+E:\Metrodata\Tugas Bootcamp Metrodata\Coding\FundamentalProgramming\FundamentalProgramming\bin\Debug\FundamentalProgramming.pdb
+E:\Metrodata\Tugas Bootcamp Metrodata\Coding\FundamentalProgramming\FundamentalProgramming\obj\Debug\FundamentalProgramming.csprojAssemblyReference.cache
+E:\Metrodata\Tugas Bootcamp Metrodata\Coding\FundamentalProgramming\FundamentalProgramming\obj\Debug\FundamentalProgramming.csproj.CoreCompileInputs.cache
+E:\Metrodata\Tugas Bootcamp Metrodata\Coding\FundamentalProgramming\FundamentalProgramming\obj\Debug\FundamentalProgramming.exe
+E:\Metrodata\Tugas Bootcamp Metrodata\Coding\FundamentalProgramming\FundamentalProgramming\obj\Debug\FundamentalProgramming.pdb
