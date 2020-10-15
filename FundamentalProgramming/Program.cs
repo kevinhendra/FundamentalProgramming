@@ -104,6 +104,11 @@ namespace FundamentalProgramming
             }
             Console.WriteLine();
         }//persegi*/
+            Layang layang = new Layang();
+            Persegi_panjang persegi_Panjang = new Persegi_panjang();
+            Belah_ketupat belah_Ketupat = new Belah_ketupat();
+            Trapesium trapesium = new Trapesium();
+            Jajar_genjang jajar_Genjang = new Jajar_genjang();
             String inputStrg = "";
             do
             {
@@ -117,16 +122,7 @@ namespace FundamentalProgramming
                         case 1:
                             try
                             {
-                                Console.Write("Masukkan Diagonal 1 : ");
-                                int d1 = Convert.ToInt32(Console.ReadLine());
-                                Console.Write("Masukkan Diagonal 2 : ");
-                                int d2 = Convert.ToInt32(Console.ReadLine());
-                                Console.Write("Masukkan rusuk 1 : ");
-                                int rusuk1 = Convert.ToInt32(Console.ReadLine());
-                                Console.Write("Masukkan rusuk 2 : ");
-                                int rusuk2 = Convert.ToInt32(Console.ReadLine());
-                                Console.WriteLine("Luas : " + (0.5 * d1 * d2));
-                                Console.WriteLine("Keliling : " + (2 * (rusuk1 + rusuk2)));
+                                layang.inputLayang();
                                 Console.Write("Hitung lagi? (y/n) ");
                                 inputStrg = Console.ReadLine();
                             }
@@ -139,16 +135,11 @@ namespace FundamentalProgramming
                         case 2:
                             try
                             {
-                                Console.Write("Masukkan panjang : ");
-                                int panjang = Convert.ToInt32(Console.ReadLine());
-                                Console.Write("Masukkan Luas: ");
-                                int lebar = Convert.ToInt32(Console.ReadLine());
-                                Console.WriteLine("Luas : " + (panjang * lebar));
-                                Console.WriteLine("Keliling : " + (2 * (panjang * lebar)));
+                                persegi_Panjang.inputPersegiPanjang();
                                 Console.Write("Hitung lagi? (y/n) ");
                                 inputStrg = Console.ReadLine();
                             }
-                            catch (System.DivideByZeroException e)
+                            catch (Exception)
                             {
                                 Console.Write("input yang dimasukkan salah. Ulang? (y/n) ");
                                 inputStrg = Console.ReadLine();
@@ -157,14 +148,7 @@ namespace FundamentalProgramming
                         case 3:
                             try
                             {
-                                Console.Write("Panjang Diagonal 1 : ");
-                                int d1 = Convert.ToInt32(Console.ReadLine());
-                                Console.Write("Panjang Diagonal 2 : ");
-                                int d2 = Convert.ToInt32(Console.ReadLine());
-                                Console.Write("Masukkan Sisi : ");
-                                int sisi = Convert.ToInt32(Console.ReadLine());
-                                Console.WriteLine("Luas : " + (0.5 * d1 * d2));
-                                Console.WriteLine("Keliling : " + (4 * sisi));
+                                belah_Ketupat.inputBelahKetupat();
                                 Console.Write("Hitung lagi? (y/n) ");
                                 inputStrg = Console.ReadLine();
                             }
@@ -177,16 +161,7 @@ namespace FundamentalProgramming
                         case 4:
                             try
                             {
-                                Console.Write("Masukkan sisi atas : ");
-                                int atas = Convert.ToInt32(Console.ReadLine());
-                                Console.Write("Masukkan sisi bawah :");
-                                int bawah = Convert.ToInt32(Console.ReadLine());
-                                Console.Write("Masukkan tinggi :");
-                                int tinggi = Convert.ToInt32(Console.ReadLine());
-                                Console.Write("Masukkan sisi samping :");
-                                int samping = Convert.ToInt32(Console.ReadLine());
-                                Console.WriteLine("Luas : " + 0.5 * (atas + bawah) * tinggi);
-                                Console.WriteLine("Keliling : " + (bawah + samping + atas + samping));
+                                trapesium.inputTrapesium();
                                 Console.Write("Hitung lagi? (y/n) ");
                                 inputStrg = Console.ReadLine();
                             }
@@ -199,14 +174,7 @@ namespace FundamentalProgramming
                         case 5:
                             try
                             {
-                                Console.Write("Masukkan Alas :");
-                                int alas = Convert.ToInt32(Console.ReadLine());
-                                Console.Write("Masukkan tinggi :");
-                                int tinggi = Convert.ToInt32(Console.ReadLine());
-                                Console.Write("Masukkan Sisi: ");
-                                int sisi = Convert.ToInt32(Console.ReadLine());
-                                Console.WriteLine("Luas : " + alas * tinggi);
-                                Console.WriteLine("Keliling : " + 2*(alas+sisi));
+                                jajar_Genjang.inputJajarGenjang();
                                 Console.Write("Hitung lagi? (y/n) ");
                                 inputStrg = Console.ReadLine();
                             }
